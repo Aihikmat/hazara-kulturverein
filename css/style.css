@@ -88,6 +88,11 @@ textarea {
 	}
 }
 
+.header__links {
+	display: flex;
+	direction: rtl;
+}
+
 .heading-sec__mb-med {
 	margin-bottom: 9rem
 }
@@ -414,9 +419,8 @@ textarea {
 }
 
 .about__content {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 10rem
+	display: flex;
+	direction: rtl;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -429,8 +433,9 @@ textarea {
 .about__content-title {
 	font-weight: 700;
 	font-size: 2.8rem;
-	margin-bottom: 8rem;
-	margin-top: 2rem;
+	margin-bottom: 4rem;
+	margin-top: 6rem;
+	direction: rtl;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -817,9 +822,9 @@ textarea {
 }
 
 .header__logo-img-cont {
-	width: 12rem;
-	height: 12rem;
-	border-radius: 50px;
+	width: 11rem;
+	height: 11rem;
+	border-radius: 20px;
 	overflow: hidden;
 	margin-right: 1.5rem;
 	background: #0062b9
@@ -1040,12 +1045,12 @@ textarea {
 }
 
 .skills {
-	display: flex;
-	flex-wrap: wrap
+	direction: ltr;
 }
 
 .skills__skill {
 	padding: 1rem 2rem;
+	direction: ltr;
 	margin-bottom: 1.5rem;
 	margin-right: 1.5rem;
 	font-size: 1.6rem;
